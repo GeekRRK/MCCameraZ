@@ -5,7 +5,7 @@
 func setupWithMCDeviceSpec(_ specification: Int, previewLayer: AVCaptureVideoPreviewLayer, successBlock: @escaping () -> Void, failureBlock: @escaping () -> Void)
 ```
 
-2. 设置相机预览和拍照的方向
+2. 设置相机预览和拍照的方向，需要把iPad倒立时要在viewWillTransition里调用，还有在初始配置后调用
 ```swift
 func setVideoOrientation(isUpsideDown: Bool)
 ```
