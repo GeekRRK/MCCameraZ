@@ -1,7 +1,5 @@
 # MCCameraZ
 
-# MCCameraX
-
 ## 工程示例
 下载此工程后打开，先从美测申请相关认证信息，然后配置一下Demo代码里的相关信息，真机上运行就能看到示例，SDK调用代码都在ViewController和CameraVC里
 
@@ -12,7 +10,6 @@
 * arm64, x86_64
 
 ## 安装
-
 从Demo中复制MCCamera.framework出来拖到自己的工程里
 
 ## SDK详解
@@ -27,7 +24,6 @@ MCCamera包含1个网络接口类，2个功能类和2个相关代理：
 * 蓝牙功能：MCBLE（相关代理：MCBLEDelegate）  
 * 相机功能：MCCamera（相关代理：MCCameraDelegate）  
 
-## 功能层SDK（通用）
 ### MCAPI
 1. 先设置美测和OEM的服务器接口地址
 ```swift
