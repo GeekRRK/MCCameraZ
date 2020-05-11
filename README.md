@@ -2,7 +2,7 @@
 
 1. 初始配置，必须调用成功后才能进行后续操作
 ```swift
-func setupWithMCDeviceSpec(_ specification: Int, previewLayer: AVCaptureVideoPreviewLayer, successBlock: @escaping () -> Void, failureBlock: @escaping () -> Void)
+func setupWithPreview(_ preview: MCCameraPreviewView, successBlock: @escaping () -> Void, failureBlock: @escaping () -> Void)
 ```
 
 2. 设置相机预览和拍照的方向，需要把iPad倒立时要在viewWillTransition里调用，还有在初始配置后调用
